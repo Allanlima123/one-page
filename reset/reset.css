@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    background: #F9F9F9;
+}
+
+:root{
+    --cor-branca:#fff;
+    --cor-cinza:#555;
+    --cor-cinza-claro:#D7D4FF;
+    --cor-azul:#6C63FF;
+    --cor-escura:#2A2A2A;
+
+    --fonte-Lato:'Lato',sans-serif;
+    --fonte-Merriweather:'Merriweather',sans-serif;
+}
+
+@media(max-width:768px){
+    .box-cards .box{
+        width: 310px;
+    }
+
+    .robape form{
+        margin: 0 10px;
+    }
+}
+
+@media screen  and (max-width:425px){
+    .cabecalho .texto{
+        max-width: 370px;
+        padding: 25px;
+    }
+
+    .imagem{
+        width: 550px;
+        padding: 0 20px;
+    }
+
+}
