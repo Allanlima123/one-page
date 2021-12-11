@@ -36,12 +36,12 @@ body{
 }
 
 @media screen  and (max-width:425px){
-    .cabecalho .texto{
+    .cabecalho .box-cabecalho .texto{
         max-width: 370px;
-        padding: 25px;
+        padding: 30px;
     }
 
-    .imagem{
+    .cabecalho .box-cabecalho .imagem{
         width: 550px;
         padding: 0 20px;
     }
