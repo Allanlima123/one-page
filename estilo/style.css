@@ -53,7 +53,7 @@
     font-weight: 700;
     color: #fff;
     font-family: var(--fonte-Lato);
-    display: block;
+    display: inline-block;
     line-height: 50px;
     text-align: center;
     border-radius: 5px;

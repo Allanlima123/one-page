@@ -25,7 +25,15 @@ body{
     --fonte-Merriweather:'Merriweather',sans-serif;
 }
 
+@media(max-width:879px){
+    .cabecalho .box-cabecalho .texto,
+    .cabecalho .box-cabecalho .texto .btn{
+        text-align: center;
+    }
+}
+
 @media(max-width:768px){
+
     .box-cards .box{
         width: 310px;
     }
